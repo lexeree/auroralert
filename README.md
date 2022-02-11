@@ -1,4 +1,4 @@
-#Aurora Alert System
+# Aurora Alert System
 
 This is a small project to create an alert system for those hoping to catch a glimpse of the aurora borealis. The script is designed to query the NOAA Space Weather Prediction Center [https://www.swpc.noaa.gov/] every *t* minutes, providing an assesment of current geomagnetic disturbances in Earth's magnetic field in a desktop notification. These disturbances are measured on the Kp-index; you can learn more about the Kp-index and find out the minimum geomagnetic activity necessary to see the aurora borealis in your region at [https://seetheaurora.com/kp-index-explained]. There is also an option for an audible alert.
 
