@@ -11,7 +11,7 @@ Eventually, I want to create an android app...but that may take a while. If anyo
 
 The auroralert was originally implemented as a simple python script. The program is designed to provide desktop notifications at regular intervals and instigate an audible notification when the actual current Kp estimated by NOAA is above a certain threshold.
 
-You can navigate download the python script and run:
+You can download the python script and run:
 
 `python main.py -t <query interval> -k <minimum Kp for sound>`
 
