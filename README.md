@@ -1,4 +1,4 @@
-#Aurora Alert System
+# Aurora Alert System
 
 This is a small project aimed at creating an alert system for those hoping to catch a glimpse of the aurora borealis. The script is designed to query the NOAA Space Weather Prediction Center [https://www.swpc.noaa.gov/] every *t* minutes, providing an assesment of current geomagnetic disturbances in Earth's magnetic field in a desktop notification. These disturbances are measured on the Kp-index; you can learn more about the Kp-index and find out the minimum geomagnetic activity necessary to see the aurora borealis in your region at [https://seetheaurora.com/kp-index-explained]. 
 
@@ -7,7 +7,7 @@ So far, I know these work on Ubuntu and Windows. If anyone can test it on other 
 Eventually, I want to create an android app...but that may take a while. If anyone has any suggestions on useful features to implement, let me know!
 
 
-###Python Script
+### Python Script
 
 The auroralert was originally implemented as a simple python script. The program is designed to provide desktop notifications at regular intervals and instigate an audible notification when the actual current Kp estimated by NOAA is above a certain threshold.
 
@@ -20,7 +20,7 @@ The query interval is measured in minutes. I recommend you set the -k flag to wh
 The script will run indefinitely; press ctrl+c to exit.
 
 
-###Java Command Line Tool
+### Java Command Line Tool
 
 The java implementation is a little more advanced; to run it, download `auroralert.jar` and run:
 
