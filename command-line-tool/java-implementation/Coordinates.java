@@ -61,6 +61,7 @@ public class Coordinates {
 		return to_deg(lat);
 	}
 	
+	//thresholds are from https://www.swpc.noaa.gov/content/tips-viewing-aurora
 	public int minKp() {
 		double lat = getGeomagneticLatitude();
 		int kp;
