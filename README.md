@@ -26,7 +26,7 @@ The java implementation is a little more advanced; to run it, download `aurorale
 
 `java -jar auroralert.jar <query interval>`
 
-where again, the query interval is in minutes. The implementation uses AWT to send notification...if anyone knows of a better cross-platform option let me know!
+where again, the query interval is in minutes. The implementation uses AWT to send notifications...if anyone knows of a better cross-platform option let me know!
 
 When you enter the above script in the command line, you will be asked to choose a mode. Your current options are:
 - `update` will give you regular silent updates on current Kp levels, both estimated (current), or predicted (in one hour).
